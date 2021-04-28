@@ -1,0 +1,11 @@
+
+music_station = "chile"
+
+music = { 
+	song = "Mi General Augusto Pinochet"
+}
+
+music = {
+	song = "Venceremos"
+}
+

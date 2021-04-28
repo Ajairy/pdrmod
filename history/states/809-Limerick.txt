@@ -1,0 +1,24 @@
+
+state={
+	id=809
+	name="Limerick"
+	manpower = 373000
+
+	state_category = large_city
+
+	history={
+		owner = LIS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			6289 3 
+		}
+		add_core_of = LIS
+	}
+
+	provinces={
+		6289 6405 13261 13262 
+	}
+}

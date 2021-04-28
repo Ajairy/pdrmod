@@ -1,0 +1,73 @@
+﻿capital = 134
+
+oob = "IRE_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	fuel_silos = 1
+}
+
+set_convoys = 10
+set_stability = 0.30
+set_war_support = 0.25
+
+set_politics = {
+	ruling_party = nationalism
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	nationalism = 100
+}
+
+create_country_leader = {
+	name = "Padraig Pearce"
+	desc = ""
+	picture = "pearce.dds"
+	expire = "1965.1.1"
+	ideology = nationalism_ideology
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Cathal Brugha"
+	picture = "brugha.dds"
+	traits = { offensive_doctrine infantry_officer old_guard }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	id = 21372137
+}
+
+create_field_marshal = {
+	name = "Michael Collins"
+	picture = "collins.dds"
+	traits = { brilliant_strategist infantry_officer fast_planner hill_fighter infantry_expert ambusher expert_improviser }
+	skill = 5
+	id = 2137221
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Éamon de Valera"
+	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
+	traits = { defensive_doctrine trait_cautious  politically_connected hidden_sympathies old_guard }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 1420214
+}
+

@@ -1,0 +1,17 @@
+﻿
+units= {		
+	fleet = {
+		name = "I. Fleet"			
+		naval_base = 9321  
+		task_force = {
+			name = "I. Fleet"
+			location = 11238  
+			ship = { name = "1st" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE } } }
+			ship = { name = "2nd" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE } } }
+			ship = { name = "3rd" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE } } }
+			ship = { name = "4th" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE } } }
+			ship = { name = "5th" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE } } }
+			ship = { name = "6th" definition = submarine equipment = { submarine_2 = { amount = 1 owner = IRE } } }
+		}
+	}
+}

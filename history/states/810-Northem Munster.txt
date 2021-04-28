@@ -1,0 +1,25 @@
+
+state={
+	id=810
+	name="Northern Munster"
+	manpower = 192000
+
+	state_category = city
+
+	history={
+		owner = LIS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 3
+		}
+		victory_points = {
+			6313 3 
+		}
+		add_core_of = LIS
+	}
+
+	provinces={
+		6313 9310 11267 11334 
+	}
+}

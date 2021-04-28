@@ -1,0 +1,126 @@
+
+music_station = "ireland2"
+
+music = {
+	song = "God save Ireland"
+}
+music = {
+	song = "Follow me up to Carlow"
+}
+
+music = {
+	song = "Drunken Sailor"
+}
+
+music = {
+	song = "Back home in Derry"
+}
+
+music = {
+	song = "Rock Road to Dublin"
+}
+
+music = {
+	song = "Go on home British Soldiers"
+}
+
+music = {
+	song = "High Germany"
+}
+
+music = {
+	song = "Man from the Daily Mail"
+}
+
+music = {
+	song = "Kellys Irish Brigade"
+}
+
+music = {
+	song = "Padraic Pearse"
+}
+
+music = {
+	song = "Michael Collins"
+}
+
+music = {
+	song = "Come out ye Black and Tans"
+}
+
+music = {
+	song = "Kinky Boots"
+}
+
+music = {
+	song = "Monto"
+}
+
+music = {
+	song = "Men Behind the Wire"
+}
+
+music = {
+	song = "Mo Ghile Mear"
+}
+
+music = {
+	song = "Mother Anarchy loves Her Sons"
+}
+
+music = {
+	song = "On the One Road"
+}
+
+music = {
+	song = "Óró Sé do bheatha bhaile"
+}
+
+music = {
+	song = "Rifles of the I.R.A."
+}
+
+music = {
+	song = "Row in the Town, A (Erin Go Bragh)"
+}
+
+music = {
+	song = "Shores of Botany Bay"
+}
+
+music = {
+	song = "The Bloody Irish"
+}
+
+music = {
+	song = "The Jolly Roving Tar"
+}
+
+music = {
+	song = "The Rake"
+}
+
+music = {
+	song = "The Orange and the Green"
+}
+
+music = {
+	song = "The Rising of the Moon"
+}
+
+music = {
+	song = "The Wearing of the Green"
+}
+
+music = {
+	song = "The Foggy Dew"
+}
+
+music = {
+	song = "The Rising of the Moon - Irish folk"
+}
+
+music = {
+	song = "Whiskey In The Jar"
+}
+

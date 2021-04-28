@@ -1,0 +1,550 @@
+﻿focus_tree = {
+	id = polish_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = POL 
+		}
+	}
+	
+	default = no
+
+
+	############################
+	####        START       ####
+	############################
+
+focus = {
+	id = POL1
+	icon = GFX_focus_generic_polish_deal
+	x = 17
+	y = 0
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}	
+############KRÓL
+
+focus = {
+	id = POL2
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = POL1 }
+	mutually_exclusive = { focus = POL18 }
+	mutually_exclusive = { focus = POL19 }
+	mutually_exclusive = { focus = POL20 }
+	mutually_exclusive = { focus = POL21 }
+	mutually_exclusive = { focus = POL22 }
+	x = 30
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}	
+
+focus = {
+	id = POL3
+	icon = GFX_focus_generic_treaty
+	prerequisite = { focus = POL2 }
+	x = 30
+	y = 2
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL4
+	icon = GFX_goal_generic_propaganda
+	prerequisite = { focus = POL3 }
+	x = 30
+	y = 3
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL5  
+	icon = GFX_dupa1
+	mutually_exclusive = { focus = POL11 }
+	prerequisite = { focus = POL4 }
+	x = 28
+	y = 4
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL6
+	icon = GFX_focus_generic_polish_deal
+	mutually_exclusive = { focus = POL7 }
+	prerequisite = { focus = POL5 }
+	x = 26
+	y = 5
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}  
+
+focus = {
+	id = POL7
+	icon = GFX_focus_generic_polish_deal
+	mutually_exclusive = { focus = POL6 }
+	prerequisite = { focus = POL5 focus = POL11 }
+	x = 29
+	y = 5
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL8
+	icon = GFX_focus_hol_the_foundations_of_defense
+	prerequisite = { focus = POL6 }
+	x = 26
+	y = 6
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL9
+	icon = GFX_focus_mex_privatisation
+	prerequisite = { focus = POL8 }
+	x = 26
+	y = 7
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL10
+	icon = GFX_goal_generic_positive_trade_relations
+	mutually_exclusive = { focus = POL14 }
+	prerequisite = { focus = POL7 }
+	x = 28
+	y = 6
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+ 
+focus = {
+	id = POL40
+	icon = GFX_goal_generic_positive_trade_relations
+	prerequisite = { focus = POL9 }
+	x = 26
+	y = 8
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+ 
+focus = {
+	id = POL41
+	icon = GFX_goal_generic_positive_trade_relations
+	prerequisite = { focus = POL40 }
+	x = 26
+	y = 9
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+####pf 
+
+focus = {
+	id = POL42
+	icon = GFX_dupa4
+	prerequisite = { focus = POL14 }
+	x = 30
+	y = 7
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL43
+	icon = GFX_dupa3
+	prerequisite = { focus = POL42 }
+	x = 30
+	y = 8 
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL44
+	icon = GFX_dupa5
+	prerequisite = { focus = POL43 }
+	x = 30
+	y = 9
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL17
+	icon = GFX_dupa2
+	prerequisite = { focus = POL10 }
+	x = 28
+	y = 8
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL45
+	icon = GFX_dupa2
+	prerequisite = { focus = POL17 }
+	x = 28
+	y = 10
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL46
+	icon = GFX_dupa2
+	prerequisite = { focus = POL45 }
+	x = 26
+	y = 11
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL47
+	icon = GFX_dupa2
+	prerequisite = { focus = POL45 }
+	x = 28
+	y = 11
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL48
+	icon = GFX_dupa2
+	prerequisite = { focus = POL45 }
+	x = 30
+	y = 11
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL49
+	icon = GFX_dupa2
+	prerequisite = { focus = POL46 }
+	prerequisite = { focus = POL47 }
+	prerequisite = { focus = POL48 }
+	x = 28
+	y = 12
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+########kurwa.
+
+focus = {
+	id = POL11
+	icon = GFX_goal_support_fascism
+	prerequisite = { focus = POL4 }
+	x = 32
+	y = 4
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL12
+	icon = GFX_focus_generic_strike_at_democracy1
+	#prerequisite = { focus = POL11 }
+	x = 35
+	y = 5
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL13
+	icon = GFX_focus_prc_infiltration
+	prerequisite = { focus = POL12 }
+	x = 41
+	y = 6
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL14
+	icon = GFX_polska
+	prerequisite = { focus = POL7 }
+	mutually_exclusive = { focus = POL10 }
+	x = 30
+	y = 6
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL15
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = POL13 }
+	x = 41
+	y = 7
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL16
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = POL12 }
+	x = 35
+	y = 6
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+##################sciezka ave KRÓL
+
+focus = {
+	id = POL18
+	icon = GFX_focus_generic_strike_at_democracy1
+	prerequisite = { focus = POL1 }
+	mutually_exclusive = { focus = POL2 }
+	mutually_exclusive = { focus = POL19 }
+	mutually_exclusive = { focus = POL20 }
+	mutually_exclusive = { focus = POL21 }
+	mutually_exclusive = { focus = POL22 }
+	x = 13
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL19
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = POL1 }
+	mutually_exclusive = { focus = POL18 }
+	mutually_exclusive = { focus = POL2 }
+	mutually_exclusive = { focus = POL20 }
+	mutually_exclusive = { focus = POL21 }
+	mutually_exclusive = { focus = POL22 }
+	x = 16
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+
+focus = {
+	id = POL20
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = POL1 }
+	mutually_exclusive = { focus = POL18 }
+	mutually_exclusive = { focus = POL19 }
+	mutually_exclusive = { focus = POL2 }
+	mutually_exclusive = { focus = POL21 }
+	mutually_exclusive = { focus = POL22 }
+	x = 18
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = POL21
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = POL1 }
+	mutually_exclusive = { focus = POL18 }
+	mutually_exclusive = { focus = POL19 }
+	mutually_exclusive = { focus = POL20 }
+	mutually_exclusive = { focus = POL2 }
+	mutually_exclusive = { focus = POL22 }
+	x = 21 
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+
+focus = {
+	id = POL22
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = POL1 }
+	mutually_exclusive = { focus = POL18 }
+	mutually_exclusive = { focus = POL19 }
+	mutually_exclusive = { focus = POL20 }
+	mutually_exclusive = { focus = POL21 }
+	mutually_exclusive = { focus = POL22 }
+	x = 24
+	y = 1
+	cost = 10
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+
+
+
+
+
+}		

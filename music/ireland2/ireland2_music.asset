@@ -1,0 +1,177 @@
+music = {
+	name = "Back home in Derry"
+	file = "Back Home In Derry.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Drunken Sailor"
+	file = "Drunken Sailor.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Follow me up to Carlow"
+	file = "Follow-Me-Up-To-Carlow.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "God save Ireland"
+	file = "God Save Ireland - Irish Patriotic Anthem.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Go on home British Soldiers"
+	file = "Go-on-Home-British-Soldiers-IRA-Song.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "High Germany"
+	file = "High Germany.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Rock Road to Dublin"
+	file = "Irish Drinking Song- Rocky Road to Dublin.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Michael Collins"
+	file = "Irish Rebel song - Michael Collins.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Come out ye Black and Tans"
+	file = "Irish Rebel Song- Come Out ye Black and Tans.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Kellys Irish Brigade"
+	file = "Kellys Irish Brigade.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Kinky Boots"
+	file = "Kinky Boots.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Monto"
+	file = "Luke Kelly And Ronnie Drew - Monto.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Man from the Daily Mail"
+	file = "Man From the Daily Mail with lyrics.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Men Behind the Wire"
+	file = "Men Behind the Wire.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Mo Ghile Mear"
+	file = "Mo-Ghile-Mear-Irish-Gaelic-Song.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Mother Anarchy loves Her Sons"
+	file = "Mother-Anarchy-Loves-Her-Sons-_English-Subtitle_.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "On the One Road"
+	file = "On The One Road with lyrics.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Óró Sé do bheatha bhaile"
+	file = "Óró Sé do bheatha bhaile - Irish Civil War Song.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Padraic Pearse"
+	file = "Padraic Pearse.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Rifles of the I.R.A."
+	file = "Rifles of the I.R.A..ogg"
+	volume = 0.9
+}
+music = {
+	name = "Row in the Town, A (Erin Go Bragh)"
+	file = "Row in the Town, A (Erin Go Bragh).ogg"
+	volume = 0.9
+}
+music = {
+	name = "Shores of Botany Bay"
+	file = "Shores of Botany Bay.ogg"
+	volume = 0.9
+}
+music = {
+	name = "The Bloody Irish"
+	file = "The British Army - The Bloody Irish.ogg"
+	volume = 0.9
+}
+music = {
+	name = "The Jolly Roving Tar"
+	file = "The Jolly Roving Tar.ogg"
+	volume = 0.9
+}
+music = {
+	name = "The Rake"
+	file = "The Rake.ogg"
+	volume = 0.9
+}
+music = {
+	name = "The Orange and the Green"
+	file = "The Orange and the Green.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "The Foggy Dew"
+	file = "The-Foggy-Dew.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "The Rising of the Moon"
+	file = "The-Rising-Of-The-Moon.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "The Rising of the Moon - Irish folk"
+	file = "The-Rising-of-the-Moon-Irish-folk-song.ogg"
+	volume = 0.9
+}
+music = {
+	name = "The Wearing of the Green"
+	file = "The-Wearing-of-the-Green.ogg"
+	volume = 0.9
+}
+music = {
+	name = "Whiskey In The Jar"
+	file = "Whiskey In The Jar.ogg"
+	volume = 0.9
+}  

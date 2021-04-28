@@ -1,0 +1,627 @@
+﻿focus_tree = {
+	id = ulster_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = NIR
+		}
+	}
+	
+	default = no
+
+
+################################################
+##############LEFT-INDUSTRIAL-PART##############
+################################################
+
+focus = {
+		id = NIR1
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 3
+		y = 0
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			119 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			119 = {
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+   				bonus = 0.75
+    			uses = 2
+    			category = industry 
+			}
+		}
+	}
+
+focus = {
+		id = NIR2
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = NIR1 }
+		x = 2
+		y = 1
+		cost = 15.8
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			119 = {
+				add_extra_state_shared_building_slots = 3
+			}
+			119 = {
+				add_building_construction = {
+    				type = industrial_complex
+    				level = 2
+    				instant_build = yes
+				}
+			}
+		}
+	}
+
+focus = {
+		id = NIR3
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = NIR1 }
+		x = 4
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			119 = {
+				add_building_construction = {
+    				type = dockyard
+    				level = 2
+    				instant_build = yes
+				}
+			}
+		}
+	}
+
+focus = {
+		id = NIR4
+		icon = GFX_focus_research
+		prerequisite = { focus = NIR2 }
+		x = 2
+		y = 2
+		cost = 15.8
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+    			bonus = 0.5
+    			uses = 3
+    			category = electronics
+			}
+			add_research_slot = 1
+		}
+	}
+
+focus = {
+		id = NIR5
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = NIR3 }
+		x = 4
+		y = 2
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			119 = {
+				add_building_construction = {
+    				type = arms_factory 
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+	}
+
+focus = {
+		id = NIR6
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = NIR4 }
+		prerequisite = { focus = NIR5 }
+		x = 3
+		y = 3
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = infrastructure_master
+		}
+	}
+
+#################################################
+##################POLITICAL######################
+#################################################
+
+focus = {
+		id = NIR7
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		mutually_exclusive = { focus = NIR21 }
+		x = 11
+		y = 0
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_popularity = { 
+				ideology = neutrality  
+				popularity = 0.05 
+			}
+			add_stability = 0.05
+		}
+	}
+
+focus = {
+		id = NIR8
+		icon = GFX_focus_eng_the_sun_never_sets
+		prerequisite = { focus = NIR7 }
+		x = 11
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			add_stability = -0.1
+		}
+	}
+
+focus = {
+		id = NIR9
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = NIR8 }
+		x = 11
+		y = 2
+		cost = 5
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = ENG 
+				modifier = large_increase
+			}
+			add_stability = 0.1
+		}
+	}
+
+focus = {
+		id = NIR10
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = NIR9 }
+		x = 10
+		y = 3
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_opinion_modifier = { 
+				target = ENG 
+				modifier = large_increase
+			}
+			add_stability = 0.05
+		}
+	}            
+
+focus = {
+		id = NIR11
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		prerequisite = { focus = NIR9 }
+		x = 12
+		y = 3
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = crusade_against_green
+		}
+	}
+
+focus = {
+		id = NIR12
+		icon = GFX_focus_eng_god_save_the_king
+		prerequisite = { focus = NIR10 }
+		prerequisite = { focus = NIR11 }
+		x = 11
+		y = 4
+		cost = 5
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = ENG 
+				modifier = large_increase
+			}
+		}
+	}
+
+focus = {
+		id = NIR13
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = NIR12 }
+		x = 11
+		y = 5
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.1
+			add_ideas = war_economy
+		}
+	}
+
+focus = {
+		id = NIR14
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = NIR13 }
+		x = 10
+		y = 6
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = INR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = IRE
+			}
+		}
+	}
+
+focus = {
+		id = NIR15
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = NIR13 }
+		x = 12
+		y = 6
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = LIS
+			}
+		}
+	}
+
+focus = {
+		id = NIR16
+		icon = GFX_focus_eng_imperial_federation
+		prerequisite = { focus = NIR14 }
+		prerequisite = { focus = NIR15 }
+		x = 11
+		y = 7
+		cost = 1
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			ENG = { puppet = NIR }
+			add_manpower = 10000
+			add_political_power = 200
+			add_stability = 0.1
+			add_war_support = -0.1
+		}
+	}
+
+#####################najbardziej lewa odnoga
+
+focus = {
+		id = NIR17
+		icon = GFX_focus_generic_manpower
+		prerequisite = { focus = NIR7 }
+		x = 8
+		y = 1
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+		
+		available = {
+				has_government = neutrality
+		}
+
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+   				type = infantry_equipment
+    			amount = 1000
+			}
+			add_equipment_to_stockpile = {
+   				type = support_equipment
+    			amount = 1000
+			}
+			army_experience = 10
+		}
+	}
+
+focus = {
+		id = NIR18
+		icon = GFX_goal_generic_air_production
+		prerequisite = { focus = NIR17 }
+		x = 9
+		y = 2
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+   				type = infantry_equipment
+    			amount = 2000
+			}
+			add_equipment_to_stockpile = {
+   				type = artillery_equipment
+    			amount = 50
+			}
+			army_experience = 25
+		}
+	}
+
+focus = {
+		id = NIR19
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = NIR17 }
+		x = 7
+		y = 2
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_corps_commander = {
+				name = "Jock Campbell"
+				picture = "Portrait_Britain_Jock_Campbell.dds"
+				traits = { armor_officer  }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 4
+			}
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+focus = {
+		id = NIR20
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = NIR18 }
+		prerequisite = { focus = NIR19 }
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+    		type = fighter_equipment 
+    		amount = 10
+    		producer = ENG
+		}
+			add_equipment_to_stockpile = {
+    		type = nav_bomber_equipment_1 
+    		amount = 5
+    		producer = ENG
+		}
+			air_experience = 10
+			army_experience = 10
+		}
+	}
+
+###############################################
+####################prawo-prawo################
+###############################################
+
+
+focus = {
+		id = NIR21
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		mutually_exclusive = { focus = NIR7 }
+		x = 15
+		y = 0
+		cost = 5
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = { 
+				ideology = democratic 
+				popularity = 0.05 
+			}
+			add_war_support = 0.05
+		}
+	}
+
+focus = {
+		id = NIR22
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = NIR21 }
+		mutually_exclusive = { focus = NIR23 }
+		x = 14
+		y = 1
+		cost = 5
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+
+focus = {
+		id = NIR23
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = NIR21 }
+		mutually_exclusive = { focus = NIR22 }
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = {
+    			ideology = democratic
+    			popularity = 0.25
+			}
+		}
+	}
+
+focus = {
+		id = NIR24
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = NIR22 focus = NIR23 }
+		x = 15
+		y = 2
+		cost = 5
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.1
+			set_politics = {
+				ruling_party = democratic 
+			}
+		}
+	}
+
+focus = {
+		id = NIR25
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = NIR22 }
+		prerequisite = { focus = NIR24 }
+		x = 14
+		y = 3
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+	}
+
+focus = {
+		id = NIR26
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		prerequisite = { focus = NIR23 }
+		prerequisite = { focus = NIR24 }
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			INR = {
+				add_ideas = sup_dem     
+			}
+		}
+	}
+
+focus = {
+		id = NIR27
+		icon = GFX_goal_generic_construct_military  
+		prerequisite = { focus = NIR25 }
+		x = 14
+		y = 4
+		cost = 10
+		search_filters = {  FOCUS_FILTER_INDUSTRY }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {  
+			add_ideas = secure_our_freedom
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+}

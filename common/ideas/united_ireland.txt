@@ -1,0 +1,500 @@
+ideas = {
+	country = {
+		general_staff = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				experience_gain_army = 0.05
+			}
+		}
+
+		better_training_program = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				training_time_army_factor = -0.1
+				army_attack_factor = 0.1
+				army_org_factor = 0.15
+			}
+		}
+
+		irish_tank_regiments = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.15
+			}
+		}
+
+		unorganised_economy = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+
+		unorganised_economy_2 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				stability_factor = -0.15
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		unorganised_economy_3 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				stability_factor = -0.15
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		land_nationalisation = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+
+		expand_autarky = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1 
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+
+		public_works = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1 
+				production_speed_arms_factory_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		ireland_for_everyone = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		great_celtic_crusade = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				army_attack_factor = 0.1
+			}
+		}
+
+		scotisch_independence_movements = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				stability_factor = -0.2
+			}
+		}
+
+		com_popularity = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				stability_factor = -0.2
+			}
+		}
+
+		free_market = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		taxation_reform = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				political_power_factor = 0.25
+			}
+		}
+
+		nationalised_economy = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+
+		nationalised_economy_1 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+				conscription = 0.01
+			}
+		}
+
+		nationalised_economy_2 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				consumer_goods_factor = 0.07
+				stability_factor = 0.05
+			}
+		}
+
+		nationalised_economy_3 = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+				conscription = 0.01
+			}
+		}
+
+		celtic_monarchy = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+
+		strong_industry = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				local_resources_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1 
+			}
+		}
+
+		celtic_sentiments = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.5
+			}
+		}
+
+		kings_army = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				army_attack_factor = 0.1
+				mobilization_speed = 0.05
+			}
+		}
+
+		scottish_sentiments = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.15
+			}
+		}
+
+		kaiser_celts = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				experience_gain_army = 0.25
+				conscription = 0.03
+				war_support_factor = 0.1
+			}
+		}
+
+		allegiance_prussia = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_research_bonus
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.05
+				neutrality_drift = 0.1
+			}
+		}
+
+
+	}
+}

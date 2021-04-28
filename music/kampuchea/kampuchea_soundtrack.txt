@@ -1,0 +1,22 @@
+
+music_station = "kampuchea"
+
+music = {
+	song = "Sat Tee Touy - Cambodian Cassette Archives"
+}
+
+music = {
+	song = "Srey No (Lady Name No) - Khmer folk songs"
+}
+
+music = {
+	song = "Khmer Rouge Song Victory 17 April"
+}
+
+music = {
+	song = "National Anthem of Kampuchea - Dap Prampi Mesa Chokchey"
+}
+
+music = {
+	song = "Ci vorrebbe un pò di Pol Pot"
+}

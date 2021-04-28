@@ -1,0 +1,33 @@
+
+state={
+	id=119
+	name="Belfast"
+
+	history={
+		owner = NIR
+		victory_points = {
+			3379 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			13273 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = NIR
+	}
+
+	provinces={
+		3242 3329 3379 13271 13273
+	}
+	manpower=783000
+	buildings_max_level_factor=1
+	state_category="city"
+	
+	resources={
+		aluminium=2
+	}
+}

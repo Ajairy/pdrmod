@@ -1,0 +1,29 @@
+music = {
+	name = "Sat Tee Touy - Cambodian Cassette Archives"
+	file = "Cambodian-Cassette-Archives-Sat-Tee-Touy-_Look-At-The-Owl_.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Srey No (Lady Name No) - Khmer folk songs"
+	file = "Khmer-folk-songs-Srey-No-_Lady-Name-No_-Original-recording.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Khmer Rouge Song Victory 17 April"
+	file = "Khmer-rouge-song-Victory-17-April.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "National Anthem of Kampuchea - Dap Prampi Mesa Chokchey"
+	file = "anthem.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Ci vorrebbe un pò di Pol Pot"
+	file = "Ci-vorrebbe-un-pò-di-Pol-Pot.ogg"
+	volume = 0.9
+}

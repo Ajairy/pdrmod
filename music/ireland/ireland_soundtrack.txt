@@ -1,0 +1,30 @@
+
+music_station = "ireland"
+
+music = {
+	song = "God Save Ireland - John McCormack"
+}
+
+music = {
+	song = "A Long Way To Tripperary - John McCormack"
+}
+
+music = {
+	song = "The Foggy Dew - John McCormack"
+}
+
+music = {
+	song = "The Wearing Of The Green - John McCormack"
+}
+
+music = {
+	song = "Star Of The County Down - John McCormack"
+}
+
+music = {
+	song = "Finnegans Wake - Clancy Brothers"
+}
+ 
+music = {
+	song = "Louis Killen - Clancy Brothers"
+}

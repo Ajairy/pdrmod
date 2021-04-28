@@ -1,0 +1,29 @@
+﻿add_namespace = united
+
+country_event = {
+	id = united.1
+	title = united.1.t
+	desc = united.1.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+
+	option = {
+		name = united.1.a
+
+	}
+}
+
+country_event = {
+	id = united
+	title = united
+	desc = united.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+
+	option = {
+		name = united.a
+
+	}
+}

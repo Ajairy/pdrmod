@@ -1,0 +1,86 @@
+﻿division_template = {
+	name = "Irish Volunteers Brigade"		
+	division_names_group = IRE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Flying Collumns"		
+	division_names_group = IRE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	### Army High Command ###
+	division = {
+		name = "1st Irish Volunteers Bridage"
+		location = 9303
+		division_template = "Irish Volunteers Brigade"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "2nd Irish Volunteers Bridage"
+		location = 9303
+		division_template = "Irish Volunteers Brigade"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "3rd Irish Volunteers Bridage"
+		location = 9303
+		division_template = "Irish Volunteers Brigade"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "1st Flying Collumns"
+		location = 385
+		division_template = "Flying Collumns"			
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name ="2d Flying Collumns"
+		location = 11257
+		division_template = "Flying Collumns"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "3rd Flying Collumns"
+		location = 13268
+		division_template = "Flying Collumns"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}	
+}
+
+## STARTING PRODUCTION ##
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "IRE"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

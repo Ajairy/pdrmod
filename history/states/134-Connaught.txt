@@ -1,0 +1,31 @@
+
+state=
+{
+	id=134
+	name="Northern Connaught"
+	manpower = 35000
+	
+	state_category = city
+
+	history=
+	{
+		owner = IRE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			9321 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = IRE
+		victory_points = {
+			13267 3 
+		}
+	}
+
+	provinces={
+		9303 9321 9369 11238 13237 13267 
+	}
+}

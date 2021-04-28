@@ -1,0 +1,167 @@
+﻿focus_tree = {
+	id = canadian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SIA
+		}
+	}
+	
+	default = no
+
+focus = {
+	id = SIA1
+	icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+	x = 7
+	y = 0
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = SIA2
+	icon = GFX_focus_attack_germany
+	prerequisite = { focus = SIA1 }
+	x = 7
+	y = 1
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = SIA3
+	icon = GFX_focus_ger_oppose_hitler
+	prerequisite = { focus = SIA2 }
+	x = 7
+	y = 2
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+
+focus = {
+	id = SIA4
+	icon = GFX_focus_hol_gateway_to_europe
+	prerequisite = { focus = SIA3 }
+	x = 7
+	y = 3
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = SIA5
+	icon = GFX_focus_ger_reichskommisariats
+	prerequisite = { focus = SIA4 }
+	x = 7
+	y = 4
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = SIA6
+	icon = GFX_focus_ger_revive_kaiserreich
+	prerequisite = { focus = SIA5 }
+	prerequisite = { focus = SIA7 }
+	prerequisite = { focus = SIA10 }
+	x = 7
+	y = 5
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = SIA7
+	icon = GFX_focus_generic_polish_deal
+	x = 2
+	y = 4 
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = SIA8
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = SIA1 }
+	x = 3
+	y = 1
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = SIA9
+	icon = GFX_focus_generic_polish_deal
+	prerequisite = { focus = SIA1 }
+	x = 11
+	y = 1
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+focus = {
+	id = SIA10
+	icon = GFX_focus_generic_polish_deal
+	x = 13
+	y = 4 
+	cost = 10 
+
+	available_if_capitulated = yes
+	search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+	completion_reward = {
+
+	}
+}
+
+
+
+}

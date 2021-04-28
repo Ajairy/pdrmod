@@ -1,0 +1,30 @@
+
+state={
+	id=811
+	name="Armagh"
+
+	history={
+		owner = NIR
+		victory_points = {
+			276 3 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			dockyard = 2
+		}
+		add_core_of = NIR
+	}
+
+	provinces={
+		276 3217 13269 13270 
+	}
+	manpower=231000
+	buildings_max_level_factor=1
+	state_category="city"
+	
+	resources={
+	}
+}

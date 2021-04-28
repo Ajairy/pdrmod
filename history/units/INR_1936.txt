@@ -1,0 +1,60 @@
+﻿division_template = {
+	name = "Blueshirts"		
+	division_names_group = INR_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	### Army High Command ###
+	division = {
+		name = "Blueshirts"
+		location = 13263
+		division_template = "Blueshirts"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "Blueshirts"
+		location = 3342
+		division_template = "Blueshirts"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "Blueshirts"
+		location = 303
+		division_template = "Blueshirts"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "Blueshirts"
+		location = 13266
+		division_template = ""Blueshirts"			
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+}
+
+## STARTING PRODUCTION ##
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "INR"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

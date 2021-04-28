@@ -1,0 +1,11 @@
+music = {
+	name = "Mi General Augusto Pinochet"
+	file = "Mi-General-Augusto-Pinochet-Chilean-Song.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Venceremos"
+	file = "Venceremos-Chilean-Socialist-Song.ogg"
+	volume = 0.9
+}

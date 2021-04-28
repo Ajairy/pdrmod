@@ -1,0 +1,30 @@
+
+state=
+{
+	id=813
+	name="Derry"
+	manpower = 394000
+	
+	state_category = city
+
+	history=
+	{
+		owner = IRE
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+			industrial_complex = 3
+			337 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = IRE
+		victory_points = {
+			337 5 
+		}
+	}
+
+	provinces={
+		337 385 11257 11371 13272 13274 13275 
+	}
+}

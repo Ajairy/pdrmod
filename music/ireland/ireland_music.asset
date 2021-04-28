@@ -1,0 +1,41 @@
+music = {
+	name = "God Save Ireland - John McCormack"
+	file = "John-McCormack-God-Save-Ireland-_1906_.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "A Long Way To Tripperary - John McCormack"
+	file = "John-McCormack-Its-A-Long-Way-To-Tipperary.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "The Foggy Dew - John McCormack"
+	file = "John-McCormack-The-Foggy-Dew-_1913_.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "The Wearing Of The Green - John McCormack"
+	file = "John-McCormack-The-Wearing-of-the-Green.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Star Of The County Down - John McCormack"
+	file = "John-McCormack-Star-Of-The-County-Down.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Finnegans Wake - Clancy Brothers"
+	file = "Clancy-Brothers-Louis-Killen-12.-Finnegans-Wake-_LIVE-1974_.ogg"
+	volume = 0.9
+}
+
+music = {
+	name = "Louis Killen - Clancy Brothers"
+	file = "Clancy-Brothers-Louis-Killen-3-_mp3cut.net_.ogg"
+	volume = 0.9
+}

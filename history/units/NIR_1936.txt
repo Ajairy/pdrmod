@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Ulster Volunteers"
+	division_names_group = IRE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 
+	}
+}
+
+units = {
+	### Army High Command ###
+	division = {
+		name = "Ulster Volunteers"
+		location = 276
+		division_template = "Ulster Volunteers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "Ulster Volunteers"
+		location = 13269 
+		division_template = "Ulster Volunteers"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "Ulster Volunteers"
+		location = 13270
+		division_template = "Ulster Volunteers"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "Ulster Volunteers"
+		location = 3242
+		division_template = "Ulster Volunteers"			
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name ="Flying Collumns"
+		location = 11257
+		division_template = "Flying Collumns"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division = {
+		name = "Flying Collumns"
+		location = 13268
+		division_template = "Flying Collumns"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}	
+}
+
+## STARTING PRODUCTION ##
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "NIR"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

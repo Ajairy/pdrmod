@@ -1,0 +1,133 @@
+ideas = {
+
+	country = {
+		everybody_serves = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				conscription_factor = 0.02
+			}
+		}
+
+		new_tools = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+
+		autarky = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		social_werfare = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		liberal_reforms = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		democracy_ethos = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				democratic_drift = 0.02 
+				stability_weekly = 0.01
+			}
+		}
+
+		eastern_irish_republic = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			picture = generic_production_bonus
+			
+			modifier = {
+				army_core_defence_factor = 0.2
+			}
+		}
+	}
+
+}
