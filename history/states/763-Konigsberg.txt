@@ -2,12 +2,11 @@
 state={
 	id=763
 	name="STATE_763"
-	manpower = 2140234
+	manpower = 1940234
 	state_category = city
 
 	history={
-		owner = GER
-		controller = GER
+		owner = RUP
 		
 		victory_points = {
 			6332 10 
@@ -27,10 +26,10 @@ state={
 			}
 			air_base = 6
 		}
-		add_core_of = GER
+		add_core_of = RUP
 	}
 
 	provinces={
-		266 281 348 395 3384 6332 9327 11265 
+		266 395 3384 6332 6402 9327 9398 11245 11265 
 	}
 }

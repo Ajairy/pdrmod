@@ -1,0 +1,21 @@
+
+
+state={
+	id=851
+	name="STATE_851"
+	manpower = 31016
+
+	state_category = city
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		 6658 
+	}
+}

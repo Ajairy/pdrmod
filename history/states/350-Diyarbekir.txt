@@ -1,0 +1,37 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		owner = ASS
+		victory_points = {
+			10106 6 
+		}
+		victory_points = {
+			4512 5 
+		}
+
+		victory_points = {
+			12387 1 
+		}
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+			add_core_of = ASS
+	}
+
+	provinces={
+		1549 1578 4512 11759 11871 12387 12416 9823 9823 6883 1606 1634 10882 901 1938 1600 10106 10804 
+	}
+	manpower=1571935
+	state_category=town
+}

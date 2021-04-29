@@ -1,0 +1,25 @@
+
+state={
+	id=858
+	name="STATE_858"
+	manpower = 48465
+	
+	
+	state_category = city
+
+	history={
+		owner = BUL
+		victory_points = { #Vidin
+			9771 1
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		9771
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=875
+	name="STATE_875"
+	manpower = 1134753
+	
+	state_category = rural
+
+	history={
+		owner = SLV
+		buildings = {
+			infrastructure = 6
+		}
+		add_claim_of = SER
+		add_core_of = SLV
+	}
+
+	provinces={
+		3592 3596
+	}
+}

@@ -15,11 +15,10 @@ state={
 		victory_points = {
 			11581 3 
 		}
-		add_core_of = SER
 		add_core_of = SLV
 	}
 
 	provinces={
-		624 3592 3596 9611 11581 11594
+		624 9611 11581 11594
 	}
 }

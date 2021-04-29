@@ -1,0 +1,28 @@
+
+state={
+	id=856
+	name="STATE_856"
+	manpower = 214936
+	
+	state_category = city
+
+	resources={
+		steel = 4
+	}
+
+	history={
+		owner = BUL
+		victory_points = { #Stara Zagora
+			6814 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		 6814 6952 6982
+	}
+}

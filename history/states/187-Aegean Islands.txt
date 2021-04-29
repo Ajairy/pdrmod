@@ -24,10 +24,13 @@ state={
 		victory_points = {
 			3401 1
 		}
+		victory_points = {
+			7127 3
+		}		
 		add_core_of = GRE
 	}
 
 	provinces={
-		3401 
+		3401 7127
 	}
 }

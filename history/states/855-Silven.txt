@@ -1,0 +1,27 @@
+
+state={
+	id=855
+	name="STATE_855"
+	manpower = 248567
+
+
+	state_category = town
+
+	history={
+		owner = BUL
+		victory_points = { #Sliven
+			6967 3
+		}
+		victory_points = { #Shumen
+			9769 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		6967 9769 9919
+	}
+}

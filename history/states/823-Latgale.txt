@@ -1,0 +1,25 @@
+
+state={
+	id=823
+	name="STATE_823"
+	manpower = 1520500
+	resources={
+		steel=1 # was: 2
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		222 319 341 9275 
+	}
+}

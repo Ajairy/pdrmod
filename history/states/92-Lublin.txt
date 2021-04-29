@@ -6,6 +6,9 @@ state={
 		victory_points = {
 			11399 1 
 		}
+		victory_points = {
+			402 1
+		}
 		owner = POL
 		buildings = {
 			infrastructure = 5
@@ -18,7 +21,7 @@ state={
 	}
 
 	provinces={
-		422 3521 3412 3559 6484 6546 6580 9452 9521 9544 9558 11399 11441 11466 
+	 3521 3559 6484 6580 9452 9521 9544 11399 11466 402
 	}
 	manpower=2464600
 	buildings_max_level_factor=1.000

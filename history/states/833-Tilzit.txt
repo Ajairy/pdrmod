@@ -1,0 +1,20 @@
+
+state={
+	id=833
+	name="STATE_833"
+	manpower = 210452
+	state_category = rural
+
+	history={
+		owner = RUP
+		
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = RUP
+	}
+
+	provinces={
+		281 348
+	}
+}

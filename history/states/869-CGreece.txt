@@ -1,0 +1,25 @@
+
+state={
+	id=869
+	name="STATE_869"
+	
+	manpower = 4145231
+	state_category = rural
+
+	history={
+		owner = GRE
+		victory_points = {
+			1205 1
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		976 11895 1205
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=870
+	name="STATE_870"
+	
+	manpower = 7145231
+	state_category = rural
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		3973 3864 863 6930 11786
+	}
+}

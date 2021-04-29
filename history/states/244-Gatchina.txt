@@ -1,0 +1,20 @@
+
+state={
+	id=244
+	name="STATE_244" # Volkhov
+	manpower = 195325
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		3110 9060 11048 9111 194 6131 9107 9153 9177 11165 11093 3163 11083 39 93 3035 3085 11131 13129
+	}
+}

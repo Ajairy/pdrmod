@@ -22,7 +22,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "James Craig"
+	name = " "
 	desc = ""
 	picture = "craig.dds"
 	expire = "1965.1.1"

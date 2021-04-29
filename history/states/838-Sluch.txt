@@ -1,0 +1,22 @@
+
+
+state={
+	id=838
+	name="STATE_838"
+	manpower = 7834
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+		9493 3470
+	}
+}

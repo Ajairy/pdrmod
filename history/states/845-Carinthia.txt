@@ -1,0 +1,25 @@
+
+state={
+	id=845
+	name="STATE_845"
+	manpower = 87084
+	
+	state_category = rural
+	
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			3673 3
+		}
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		3673 3674 6687
+	}
+}

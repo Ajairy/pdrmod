@@ -10,15 +10,15 @@ state={
 			6375 3
 		}
 
-		owner = GER
+		owner = POL
 		
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = GER
+		add_core_of = POL
 	}
 
 	provinces={
-		3351 6375 6402 9346 9398 11245 
+		3351 6375 9346 9372 11386
 	}
 }

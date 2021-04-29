@@ -1,0 +1,25 @@
+
+state={
+	id=198
+	name="STATE_198"
+	manpower = 1893391
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			9423 3
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+	 6455 9423 9435 9576 
+	}
+}

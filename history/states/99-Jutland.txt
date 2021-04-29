@@ -1,0 +1,26 @@
+state= {
+	id=99
+	name="STATE_99"
+	manpower = 1672235
+	resources={
+		aluminium=6 # was: 10
+	}
+	
+	state_category = town
+
+	history=
+	{
+		owner = DEN
+		victory_points = {
+			3231 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		add_core_of = DEN
+	}
+	provinces={
+		317 332 3231 11251 11366   	
+	}
+}

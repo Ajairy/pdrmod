@@ -1,0 +1,25 @@
+
+state={
+	id=840
+	name="STATE_840" 
+	manpower = 114300
+	resources={
+		tungsten=10 # was: 20
+		steel= 10 # was: 20
+		chromium = 5 # was: 10
+	}
+	
+	state_category = rural
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		6125 6165 9147 9186 9226 11073 201 11155 11208 6168 61 151 3095 6206 101 11060 6208 9083 9178 6055 6155 6170
+	}
+}

@@ -9,9 +9,6 @@ state={
 
 		}
 		victory_points = {
-			3392 1
-		}
-		victory_points = {
 			560 1
 		}
 		add_core_of = SOV
@@ -19,9 +16,9 @@ state={
 	}
 
 	provinces={
-		535 560 3256 3309 3496 3556 6280 6306 6415 6579 9520 11285 11503 
+		535 560 3496 3556 6280 6579 9520 11285 11503 6306 3309
 	}
-	manpower=1232200
+	manpower=632200
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

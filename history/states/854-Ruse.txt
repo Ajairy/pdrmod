@@ -1,0 +1,31 @@
+
+state={
+	id=854
+	name="STATE_854"
+	manpower = 758394
+
+
+	state_category = town
+
+	history={
+		owner = BUL
+		victory_points = { #Varna
+			9783 5
+		}
+		victory_points = { #Ruse
+			9612 3
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			9783 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		649 9612 9783
+	}
+}

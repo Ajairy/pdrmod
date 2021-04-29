@@ -1,0 +1,31 @@
+
+state={
+	id=352
+	name="STATE_352" # Van
+	manpower = 262095
+
+	state_category = rural
+
+	history={
+		owner = ASS
+		victory_points = {
+			12476 1 
+		}
+		victory_points = {
+			7530 1 
+		}
+		victory_points = {
+			3916 3
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+			add_core_of = ASS
+	}
+
+	provinces={
+		1463 7530 12476 10811 5014 3916
+	}
+}
+

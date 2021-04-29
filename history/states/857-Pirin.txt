@@ -1,0 +1,24 @@
+
+state={
+	id=857
+	name="STATE_857"
+	manpower = 77532
+	
+	state_category = rural
+
+
+	history={
+		owner = BUL
+		victory_points = { #Stara Zagora
+			6814 3
+		}
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		 6857 9818
+	}
+}

@@ -1,0 +1,20 @@
+
+state= {
+	
+	id=882
+	name="STATE_882"
+	manpower = 364200
+	
+	state_category = rural
+	
+	history = {
+		owner = POL
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = POL
+	}
+	provinces={
+		9494 6522 3434 466 3410 11507
+	}
+}

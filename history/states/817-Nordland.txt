@@ -1,0 +1,21 @@
+
+state={
+	id=817
+	name="STATE_917"
+	manpower = 123512
+	
+	state_category = rural
+	
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		3132 38 9126 6214 173 6071 3048 6111 3088 3126 9208 6187 
+	}
+}

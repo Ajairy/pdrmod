@@ -1,0 +1,22 @@
+
+state={
+	id=868
+	name="STATE_868"
+	
+	manpower = 145231
+	state_category = rural
+
+	history={
+		owner = ALB
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ALB
+
+	}
+
+	provinces={
+		6900 13235 
+	}
+}
