@@ -248,7 +248,7 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
@@ -262,25 +262,26 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = conservatism
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 20
-		fascism = 35
-		communism = 2
-		neutrality = 43
+		conservatism = 33
+		nationalism = 32
+		agrarism = 13
+		liberalism = 15
+		communism = 7
 	}
 }
 
 create_country_leader = {
-	name = "Gheorghe Tatarescu"
-	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
+	name = "Carol II"
+	desc = "POLITICS_CAROL_II_DESC"
+	picture = "gfx/leaders/ROM/Portrait_ROM_Carol_II.dds"
 	expire = "1965.1.1"
-	ideology = conservatism #switched from centrism
+	ideology = conservatism_ideology
 	traits = {
 		#
 	}

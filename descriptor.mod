@@ -7,3 +7,12 @@ tags={
 }
 name="Point de Reveries"
 supported_version="1.10.5"
+replace_path="common/ai_strategy_plans"
+replace_path="common/bookmarks"
+replace_path="common/decisions"
+replace_path="common/decisions/categories"
+replace_path="common/national_focus"
+replace_path="common/on_actions"
+replace_path="common/opinion_modifiers"
+replace_path="events"
+replace_path="history/countries"
