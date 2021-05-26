@@ -4,6 +4,26 @@ spriteTypes = {
 		name = "GFX_idea_paoliego_icon"
 		texturefile = "gfx/interface/ideas/paoliego_icon.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_ROM_power_struggle"
+		texturefile = "gfx/interface/ideas/idea_ROM_power_struggle.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ROM_black_banat_army"
+		texturefile = "gfx/interface/ideas/idea_ROM_black_banat_army.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ROM_russian_economic_influence"
+		texturefile = "gfx/interface/ideas/idea_ROM_russian_economic_influence.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ROM_betrayed_by_entente"
+		texturefile = "gfx/interface/ideas/idea_ROM_betrayed_by_entente.dds"
+	}
 
 
 	SpriteType = {

@@ -1,0 +1,42 @@
+﻿l_english:
+
+ ### COUNTRY NAMES ###
+ ROM_conservatism:0 "Kingdom of Romania"
+ ROM_conservatism_DEF:0 "Kingdom of Romania"
+ ROM_conservatism_ADJ:0 "Romanian"
+ 
+ ### PARTIES ###
+ ROM_agrarianism_party:0 "PNT"
+ ROM_agrarianism_party_long:0 "Partidul National Tărănesc"
+ ROM_conservatism_party:0 "Loialistii"
+ ROM_conservatism_party_long:0 "Loialistii Regelui Carol II"
+ ROM_authoritarianism_party:0 "Loialistii"
+ ROM_authoritarianism_party_long:0 "Loialistii Regelui Carol II"
+ ROM_communism_party:0 "PCR"
+ ROM_communism_party_long:0 "Partidul Comunist Român"
+ ROM_socialism_party:0 "PSR"
+ ROM_socialism_party_long:0 "Partidul Socialist din România"
+ ROM_nationalism_party:0 "Garda de Fier"
+ ROM_nationalism_party_long:0 "The Iron Guard"
+ ROM_liberalism_party:0 "PNL"
+ ROM_liberalism_party_long:0 "Partidul Național Liberal"
+ ROM_phrygism_party:0 "CR"
+ ROM_phrygism_party_long:0 "Cruciada Românismului"
+ ROM_anarchism_party:0 "PA"
+ ROM_anarchism_party_long:0 "Partidul Anarhiosindicalist"
+ ROM_socialdemocratic_party:0 "PSDR"
+ ROM_socialdemocratic_party_long:0 "Partidul Social Democrat Român"
+ 
+ ### NATIONAL SPIRITS ###
+ 
+ ROM_power_struggle:0 "Power Struggle"
+ ROM_power_struggle_desc:0 "The Kingdom's government currently suffers from a large power struggle, which threatens to affect the civilian and military parts of our population. On one side, there are loyalists fiercely devoted to Carol II and his government. On the other hand, there is the Iron Guard, a group of religious ultranationalists who enjoy sizable influence, especially in the military.\n\nFor now the problems are visible only in the government, but should the conflict ignite, an open conflict is sure to arise."
+ ROM_betrayed_by_entente:0 "Betrayed by the Entente"
+ ROM_betrayed_by_entente_desc:0 "Despite the victory in the Great War, it is not a surprise that many Romanians feel betrayed by their former alliance. With the political dominance of Russia crippling Romanian soft power and Moscow controlling territories of Moldavia and half of Bucovina, and the Bulgarians stealing Southern Dobrudja, the revanchism in Romania is on the rise and significantly boosts the political extremists, while also promoting the criticism of our government."
+ ROM_russian_economic_influence:0 "Russian Economic Influence"
+ ROM_russian_economic_influence_desc:0 "Following their victory, the Russians wasted no time asserting their economic influence over their weaker neighbours, and Romania was no exception. Large part of the private sector is controlled by Russian companies and their investors, curbing the size of our economy. Should a some sort of crisis affect Moscow, however, we could be able to seize back the industry stolen from us."
+ ROM_black_banat_army:0 "Black Army of Banat"
+ ROM_black_banat_army_desc:0 "The Banat region is a home to many peoples of germanic descent, many of whom don't wish to identify themselves as citizens of Romania. Their political leader, Rudolf Brandsch has founded the 'Black Army of Banat', and tries to reaffirm the danubian German influence at the expense of local Romanian and Hungarian populations while calling himself the 'Führer of Banat'. Although weak in power for the time being, it is still a problem we have to solve in order to secure our border integrity."
+ 
+ ### LEADERS ###
+ POLITICS_CAROL_II_DESC:0 "Born in 1893, Carol II asserts his right as the King of Romania by trying to lead the country through these difficult times. While at first his citizens might love him due to his devotion to restoring greater Romanian borders, he is at the same time hated for his hedonist, expensive livestyle accompanied by scandals.\n\nAlthough being a monarch disinterested in politics, Carol II watched the situation between his government and the Iron Guard with caution, knowing that if nationalists were to try to fight for Romania, his homeland would destroy itself by their own citizens."

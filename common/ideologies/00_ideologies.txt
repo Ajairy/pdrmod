@@ -1,19 +1,5 @@
 ideologies = {
 	
-#ZAPIERDALANIE = {
-	#	types = {
-	#		ZAPIERDALANIE_IDEOLOGY = { }
-	#	}
-	#	color = { 255 0 255 }
-	#}
- 
-	#LGBT = {
-	#	types = {
-	#		LGBT_ideology = { }
-	#	}
-	#	color = { 255 0 255 }
-	#}
-	
 	phrygism = {
 	
 		types = {
@@ -231,7 +217,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 87 144 239 }
+		color = { 221 223 46 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -314,7 +300,7 @@ ideologies = {
 	
 		types = {
 			
-			socialdemocratic_tak = {
+			socialdemocratic_ideology = {
 			}
 	
 		}
@@ -365,10 +351,45 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 	
+	communism = {
+		
+		types = {
+			communism_ideology = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNISM_1"
+		}
+		
+		color = { 158 36 36 }
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		
+		faction_modifiers = {
+		}
+
+	}
+	
 	socialism = {
 		
 		types = {
-		
 			socialism_ideology = {
 			}
 		}
@@ -381,7 +402,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 214 44 44 }
+		color = { 227 61 61 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -408,7 +429,6 @@ ideologies = {
 		faction_modifiers = {
 			
 		}
-
 	}
 	
 	anarchism = {
@@ -456,52 +476,6 @@ ideologies = {
 		}
 
 		ai_neutral = yes # 
-	}
-	
-	communism = {
-		
-		types = {
-		
-			communism_ideology - {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-		
-		color = { 158 18 18 }
-		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-		
-		ai_communist = yes # uses the commie AI behaviour
-		
-		rules = {
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-		
-		can_collaborate = yes
-		
-		modifiers = {
-			puppet_cost_factor = -0.3
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
-		}
-		
-		faction_modifiers = {
-			
-		}
-
 	}
 	
 }

@@ -1,0 +1,53 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_ideology_anarchism_group"
+		texturefile = "gfx/interface/ideologies/anarchism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialism_group"
+		texturefile = "gfx/interface/ideologies/socialism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarianism_group"
+		texturefile = "gfx/interface/ideologies/authoritarianism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_nationalism_group"
+		texturefile = "gfx/interface/ideologies/nationalism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_phrygism_group"
+		texturefile = "gfx/interface/ideologies/phrygism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_agrarianism_group"
+		texturefile = "gfx/interface/ideologies/agrarianism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialdemocratic_group"
+		texturefile = "gfx/interface/ideologies/socialdemocratic_group.dds"
+	}
+	
+}
