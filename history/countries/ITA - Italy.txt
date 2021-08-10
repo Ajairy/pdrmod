@@ -109,6 +109,7 @@ if = {
 
 # DIPLOMACY / WAR 36
 puppet = SLV
+puppet = ALB
 if = {
 	limit = {
 		has_start_date < 1936.01.02
