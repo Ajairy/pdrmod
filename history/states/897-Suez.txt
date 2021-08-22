@@ -1,0 +1,30 @@
+state={
+	id=897
+	name="STATE_897"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			12049 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			12049 5 
+		}
+		victory_points = {
+			4073 3 
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		12049 1155 9947 4073
+	}
+	manpower=69
+	buildings_max_level_factor=1.000
+}

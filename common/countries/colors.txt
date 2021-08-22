@@ -763,3 +763,7 @@ ZHE = {
 	color = rgb { 90 145 72 }
 	color_ui = rgb { 51 51 255 }
 }
+AFE = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 51 51 255 }
+}
