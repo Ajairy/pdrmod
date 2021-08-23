@@ -1,23 +1,26 @@
 
 state={
-	id=782
-	name="STATE_782"
+	id=900
+	name="STATE_900"
 
 	history={
-		owner = MRT
+		owner = AFE
 		add_core_of = MLI
-		add_core_of = MRT
+		add_core_of = AFE
+		victory_points = {
+			4927 1 
+		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 3
 
 		}
 
 	}
 
 	provinces={
-		1115 1897 2044 10725 10771 10788 10868 
+		2068 5101 
 	}
-	manpower=79243
+	manpower=69
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
