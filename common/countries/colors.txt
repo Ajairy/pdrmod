@@ -767,3 +767,23 @@ AFE = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 51 51 255 }
 }
+ETU = {
+	color = rgb { 0 191 255 }
+	color_ui = rgb { 51 51 255 }
+}
+RET = {
+	color = rgb { 34 139 34 }
+	color_ui = rgb { 51 51 255 }
+}
+LCH = {
+	color = rgb { 255 255 102 }
+	color_ui = rgb { 51 51 255 }
+}
+NCH = {
+	color = rgb { 0 0 205 }
+	color_ui = rgb { 51 51 255 }
+}
+JCH = {
+	color = rgb { 217 216 197 }
+	color_ui = rgb { 51 51 255 }
+}

@@ -2,12 +2,15 @@ state=
 {
 	id=596
 	name="STATE_596"
-	manpower = 21230700
-	state_category = city
+	manpower=21230700
+	state_category=city
 	history=
 	{
-		owner = CHI
+		owner=NCH
+		add_core_of = LCH
 		add_core_of = CHI
+		add_core_of = NCH
+		add_core_of = JCH
 		add_core_of = PRC
 		
 		victory_points = { 
@@ -18,7 +21,7 @@ state=
 		}
 		
 		buildings = {
-			infrastructure = 4
+			infrastructure=4
 
 			7191 = {
 				naval_base = 1

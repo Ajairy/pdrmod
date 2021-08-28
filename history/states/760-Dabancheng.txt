@@ -6,13 +6,14 @@ state={
 	}
 	manpower=700000
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 	history={
-		owner = CHI
-		add_core_of = CHI
+		owner=ETU
+		add_core_of = RET
+		add_core_of = ETU
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			infrastructure=3
+			arms_factory=1
 		}
 	}
 }

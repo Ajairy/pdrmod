@@ -3,16 +3,14 @@ state={
 	name="STATE_604"
 
 	history={
-		owner = CHI
+		owner=TIB
 		add_core_of = TIB
-		add_core_of = CHI
-                set_demilitarized_zone = yes
 		victory_points = {
 			7940 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
+			infrastructure=1
+			industrial_complex=2
 		}
 	}
 

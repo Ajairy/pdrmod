@@ -1,0 +1,29 @@
+
+state={
+	id=901
+	name="STATE_901"
+
+	history={
+		owner = NCH
+		add_core_of = NCH
+		add_core_of = PRC
+		add_core_of = JCH
+		add_core_of = LCH
+		add_core_of = CHI
+		victory_points = {
+			4927 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1036 1640 4619 4631 7097 9999 
+	}
+	manpower=69
+	buildings_max_level_factor=1.000
+	state_category=city
+}
