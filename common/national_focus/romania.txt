@@ -1,0 +1,1770 @@
+focus_tree = {
+	id = Romania
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1800 }
+
+	focus = {
+		id = Stabilize_the_country
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 3
+		y = 0
+	}
+
+#gra
+
+	focus = {
+		id = The_great_game
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 6
+	}
+
+	focus = {
+		id = Just_calm_down
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = The_great_game
+		}
+		mutually_exclusive = {
+			focus = Capitanul_makes_moves
+		}
+		relative_position_id = The_great_game
+		x = -3
+		y = 1
+
+	}
+	focus = {
+		id = Silence_them
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Just_calm_down
+		}
+		relative_position_id = The_great_game
+		x = -4
+		y = 2
+
+	}
+	focus = {
+		id = Anti_legionary_propaganda
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Just_calm_down
+		}
+		relative_position_id = The_great_game
+		x = -2
+		y = 2
+
+	}
+	focus = {
+		id = Arrest_the_protesters
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Anti_legionary_propaganda
+		}
+		relative_position_id = The_great_game
+		x = -3
+		y = 3
+
+	}
+	focus = {
+		id = Censor_newspaper
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Silence_them
+		}
+		prerequisite = {
+			focus = Anti_legionary_propaganda
+		}
+		relative_position_id = The_great_game
+		x = -5
+		y = 3
+	}
+
+	focus = {
+		id = Enforce_loyality
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Anti_legionary_propaganda
+		}
+		relative_position_id = The_great_game
+		x = -1
+		y = 3
+	}
+
+	focus = {
+		id = Expand_loyalist_influence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Arrest_the_protesters
+		}
+		prerequisite = {
+			focus = Censor_newspaper
+		}
+		relative_position_id = The_great_game
+		x = -4
+		y = 4
+	}
+
+	focus = {
+		id = Anti_legionary_laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Enforce_loyality
+		}
+		prerequisite = {
+			focus = Arrest_the_protesters
+		}
+		relative_position_id = The_great_game
+		x = -2
+		y = 4
+
+	}
+	focus = {
+		id = Eliminate_the_thread
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Anti_legionary_laws
+		}
+		prerequisite = {
+			focus = Expand_loyalist_influence
+		}
+		relative_position_id = The_great_game
+		x = -3
+		y = 5
+
+	}
+	focus = {
+		id = Capitanul_makes_moves
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = The_great_game
+		}
+		mutually_exclusive = {
+			focus = Just_calm_down
+		}
+		relative_position_id = The_great_game
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = Royal_scandal
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Capitanul_makes_moves
+		}
+		relative_position_id = The_great_game
+		x = 2
+		y = 2
+	}
+
+	focus = {
+		id = Make_them_hate_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Capitanul_makes_moves
+		}
+		relative_position_id = The_great_game
+		x = 4
+		y = 2
+	}
+
+	focus = {
+		id = Legionary_revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Royal_scandal
+		}
+		relative_position_id = The_great_game
+		x = 1
+		y = 3
+	}
+
+	focus = {
+		id = Get_church_on_our_side
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Royal_scandal
+		}
+		prerequisite = {
+			focus = Make_them_hate_the_king
+		}
+		relative_position_id = The_great_game
+		x = 3
+		y = 3
+	}
+
+	focus = {
+		id = Expand_iron_guard
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Make_them_hate_the_king
+		}
+		relative_position_id = The_great_game
+		x = 5
+		y = 3
+	}
+
+	focus = {
+		id = No_reason_to_fear_us
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Get_church_on_our_side
+		}
+		prerequisite = {
+			focus = Legionary_revolution
+		}
+		relative_position_id = The_great_game
+		x = 2
+		y = 4
+	}
+
+	focus = {
+		id = Promote_nationalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expand_iron_guard
+		}
+		prerequisite = {
+			focus = Get_church_on_our_side
+		}
+		relative_position_id = The_great_game
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = Intimidate_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Promote_nationalism
+		}
+		prerequisite = {
+			focus = No_reason_to_fear_us
+		}
+		relative_position_id = The_great_game
+		x = 3
+		y = 5
+	}
+
+#przemysł
+
+	focus = {
+		id = Status_of_the_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 9
+		y = 0
+	}
+
+	focus = {
+		id = MALAXA
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Status_of_the_industry
+		}
+		relative_position_id = Status_of_the_industry
+		x = -1
+		y = 1
+	}
+
+	focus = {
+		id = Increase_extraction_of_raw_materials
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Status_of_the_industry
+		}
+		relative_position_id = Status_of_the_industry
+		x = 1
+		y = 1
+	}
+
+	focus = {
+		id = Build_new_roads
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MALAXA
+		}
+		relative_position_id = Status_of_the_industry
+		x = -2
+		y = 2
+
+	}
+	focus = {
+		id = Expand_the_infrastructure
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Build_new_roads
+		}
+		relative_position_id = Status_of_the_industry
+		x = -2
+		y = 3
+	}
+
+	focus = {
+		id = Romanian_agriculture
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = MALAXA
+		}
+		prerequisite = {
+			focus = Increase_extraction_of_raw_materials
+		}
+		relative_position_id = Status_of_the_industry
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = Mechanized_farming
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Romanian_agriculture
+		}
+		relative_position_id = Status_of_the_industry
+		x = 0
+		y = 3
+	}
+
+	focus = {
+		id = Industriall_development
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Increase_extraction_of_raw_materials
+		}
+		relative_position_id = Status_of_the_industry
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = The_university_of_Bucharest
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Industriall_development
+		}
+		relative_position_id = Status_of_the_industry
+		x = 2
+		y = 3
+	}
+
+	focus = {
+		id = Expand_arms_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Mechanized_farming
+		}
+		prerequisite = {
+			focus = Expand_the_infrastructure
+		}
+		relative_position_id = Status_of_the_industry
+		x = -1
+		y = 4
+	}
+
+	focus = {
+		id = Listen_to_the_workers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = The_university_of_Bucharest
+		}
+		prerequisite = {
+			focus = Mechanized_farming
+		}
+		relative_position_id = Status_of_the_industry
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = Make_Romania_european_powerhouse
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Listen_to_the_workers
+		}
+		prerequisite = {
+			focus = Expand_arms_industry
+		}
+		relative_position_id = Status_of_the_industry
+		x = 0
+		y = 5
+	}
+
+#lojaliści
+
+	focus = {
+		id = A_loyalist_Romania
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = National_legionary_state
+		}
+		x = 32
+		y = 6
+	}
+
+	focus = {
+		id = Royal_dictatorship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = A_loyalist_Romania
+		}
+		relative_position_id = A_loyalist_Romania
+		x = 0
+		y = 1
+	}
+
+	focus = {
+		id = Bucharest_trials
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Royal_dictatorship
+		}
+		relative_position_id = A_loyalist_Romania
+		x = -2
+		y = 2
+	}
+
+	focus = {
+		id = Glorify_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Royal_dictatorship
+		}
+		relative_position_id = A_loyalist_Romania
+		x = 0
+		y = 2
+	}
+
+	focus = {
+		id = year_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Royal_dictatorship
+		}
+		relative_position_id = A_loyalist_Romania
+		x = 2
+		y = 2
+	}
+
+	focus = {
+		id = Royal_constitution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Glorify_the_king
+		}
+		prerequisite = {
+			focus = Bucharest_trials
+		}
+		relative_position_id = A_loyalist_Romania
+		x = -1
+		y = 3
+	}
+
+	focus = {
+		id = Third_rome
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Glorify_the_king
+		}
+		prerequisite = {
+			focus = year_plan
+		}
+		prerequisite = {
+			focus = Bucharest_trials
+		}
+		relative_position_id = A_loyalist_Romania
+		x = 1
+		y = 3
+	}
+
+	focus = {
+		id = Dumnezeu_Patria_Regele
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Royal_constitution
+		}
+		relative_position_id = A_loyalist_Romania
+		x = -1
+		y = 4
+	}
+
+	focus = {
+		id = Monarchy_back_in_fashion
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Third_rome
+		}
+		relative_position_id = A_loyalist_Romania
+		x = 1
+		y = 4
+	}
+
+	focus = {
+		id = Long_live_the_king
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Dumnezeu_Patria_Regele
+		}
+		prerequisite = {
+			focus = Monarchy_back_in_fashion
+		}
+		relative_position_id = A_loyalist_Romania
+		x = 0
+		y = 5
+	}
+
+#armia
+
+	focus = {
+		id = Army_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 28
+		y = 0
+
+	}
+	focus = {
+		id = Quantity
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Army_reform
+		}
+		relative_position_id = Army_reform
+		mutually_exclusive = {
+			focus = Quality
+		}
+		x = -6
+		y = 1
+
+	}
+	focus = {
+		id = People's_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Quantity
+		}
+		relative_position_id = Army_reform
+		x = -7
+		y = 2
+	}
+
+	focus = {
+		id = Increase_military_conscription
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Quantity
+		}
+		relative_position_id = Army_reform
+		x = -5
+		y = 2
+	}
+
+	focus = {
+		id = Quality
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Army_reform
+		}
+		relative_position_id = Army_reform
+		mutually_exclusive = {
+			focus = Quantity
+		}
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = Smaller_but_better
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Quality
+		}
+		relative_position_id = Army_reform
+		x = -3
+		y = 2
+
+	}
+	focus = {
+		id = Improve_military_training
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Quality
+		}
+		relative_position_id = Army_reform
+		x = -1
+		y = 2
+
+	}
+	focus = {
+		id = Offensive_doctrine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Army_reform
+		}
+		mutually_exclusive = {
+			focus = Defensive_doctrine
+		}
+		relative_position_id = Army_reform
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = Lightning_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Offensive_doctrine
+		}
+		relative_position_id = Army_reform
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = Break_the_line_of_defence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Offensive_doctrine
+		}
+		relative_position_id = Army_reform
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = Defensive_doctrine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Army_reform
+		}
+		mutually_exclusive = {
+			focus = Offensive_doctrine
+		}
+		relative_position_id = Army_reform
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = Bucharest_shall_not_fall
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Defensive_doctrine
+		}
+		relative_position_id = Army_reform
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = Fortify_the_borders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Defensive_doctrine
+		}
+		relative_position_id = Army_reform
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = focus_on_infantry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = People's_army
+		}
+		prerequisite = {
+			focus = Increase_military_conscription
+		}
+		prerequisite = {
+			focus = Smaller_but_better
+		}
+		prerequisite = {
+			focus = Improve_military_training
+		}
+		prerequisite = {
+			focus = Bucharest_shall_not_fall
+		}
+		prerequisite = {
+			focus = Fortify_the_borders
+		}
+		prerequisite = {
+			focus = Lightning_war
+		}
+		prerequisite = {
+			focus = Break_the_line_of_defence
+		}
+		mutually_exclusive = {
+			focus = metal_beasts
+		}
+		relative_position_id = Army_reform
+		x = -1
+		y = 3
+
+	}
+	focus = {
+		id = metal_beasts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = People's_army
+		}
+		prerequisite = {
+			focus = Increase_military_conscription
+		}
+		prerequisite = {
+			focus = Smaller_but_better
+		}
+		prerequisite = {
+			focus = Improve_military_training
+		}
+		prerequisite = {
+			focus = Bucharest_shall_not_fall
+		}
+		prerequisite = {
+			focus = Fortify_the_borders
+		}
+		prerequisite = {
+			focus = Lightning_war
+		}
+		prerequisite = {
+			focus = Break_the_line_of_defence
+		}
+		mutually_exclusive = {
+			focus = metal_beasts
+		}
+		relative_position_id = Army_reform
+		x = 1
+		y = 3
+	}
+
+	focus = {
+		id = support_companies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = focus_on_infantry
+		}
+		prerequisite = {
+			focus = metal_beasts
+		}
+		mutually_exclusive = {
+			focus = deadly_rain_of_bullets
+		}
+		relative_position_id = Army_reform
+		x = -1
+		y = 4
+	}
+
+	focus = {
+		id = deadly_rain_of_bullets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = focus_on_infantry
+		}
+		prerequisite = {
+			focus = metal_beasts
+		}
+		mutually_exclusive = {
+			focus = support_companies
+		}
+		relative_position_id = Army_reform
+		x = 1
+		y = 4
+	}
+
+#przemysłwojskowy
+
+	focus = {
+		id = Expand_military_infrastructure
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = Expand_cugir_arms_factory
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expand_military_infrastructure
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = Expand_naval_bases_in_Constanta
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expand_military_infrastructure
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = 0
+		y = 1
+	}
+
+	focus = {
+		id = Expand_air_bases
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expand_military_infrastructure
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = 2
+		y = 1
+	}
+
+	focus = {
+		id = Military_research
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expand_cugir_arms_factory
+		}
+		prerequisite = {
+			focus = Expand_naval_bases_in_Constanta
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = -2
+		y = 2
+
+	}
+	focus = {
+		id = Invite_foreign_companies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expand_naval_bases_in_Constanta
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = 0
+		y = 2
+	}
+
+	focus = {
+		id = Invest_in_the_IAR
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expand_air_bases
+		}
+		prerequisite = {
+			focus = Expand_naval_bases_in_Constanta
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = 2
+		y = 2
+	}
+
+	focus = {
+		id = Industria_areonautica_Romana
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Military_research
+		}
+		prerequisite = {
+			focus = Invite_foreign_companies
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = -2
+		y = 3
+	}
+
+	focus = {
+		id = Build_railways_for_military
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Invite_foreign_companies
+		}
+		prerequisite = {
+			focus = Invest_in_the_IAR
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = Radar_stations
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Invest_in_the_IAR
+		}
+		relative_position_id = Expand_military_infrastructure
+		x = 2
+		y = 3
+	}
+
+	focus = {
+		id = Kickstart_military_industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Industria_areonautica_Romana
+		}
+		prerequisite = {
+			focus = Build_railways_for_military
+		}
+		prerequisite = {
+			focus = Radar_stations
+		}
+		relative_position_id = Expand_military_infrastructure 
+		x = 0
+		y = 4
+	}
+
+#wargoale
+
+	focus = {
+		id = Restore_our_rightfull_borders
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 45
+		y = 0
+	}
+
+	focus = {
+		id = Strike_east
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Restore_our_rightfull_borders
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = -6
+		y = 1
+
+	}
+	focus = {
+		id = Contact_the_moldavians
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Strike_east
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = -7
+		y = 2
+
+	}
+	focus = {
+		id = Exploit_Russia_instability
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Strike_east
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = -5
+		y = 2
+
+	}
+	focus = {
+		id = Kill_the_bear
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Exploit_Russia_instability
+		}
+		prerequisite = {
+			focus = Contact_the_moldavians
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = -6
+		y = 3
+
+	}
+	focus = {
+		id = Push_to_the_tisza
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Restore_our_rightfull_borders
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = Support_AC_resistance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Push_to_the_tisza
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = -3
+		y = 2
+
+	}
+	focus = {
+		id = Irredentist_propaganda
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Push_to_the_tisza
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = -1
+		y = 2
+
+	}
+	focus = {
+		id = Sweet_revenge
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Irredentist_propaganda
+		}
+		prerequisite = {
+			focus = Support_AC_resistance
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = -2
+		y = 3
+
+	}
+	focus = {
+		id = Fortify_the_border
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Prepare_for_balkan_war
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = Prepare_for_balkan_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Restore_our_rightfull_borders
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = Organise_the_anti_Bulgarian_aliance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Prepare_for_balkan_war
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = Romanisation_effort
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Fortify_the_border
+		}
+		prerequisite = {
+			focus = Organise_the_anti_Bulgarian_aliance
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = Take_banat
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Restore_our_rightfull_borders
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = Destabilise_serbia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Take_banat
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = Find_the_achilles_heel_serbian_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Take_banat
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = March_to_belgrad
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Find_the_achilles_heel_serbian_army
+		}
+		prerequisite = {
+			focus = Destabilise_serbia
+		}
+		relative_position_id = Restore_our_rightfull_borders
+		x = 6
+		y = 3
+
+#stabilizacja
+
+	}
+	focus = {
+		id = Hungarian_issue
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Stabilize_the_country
+		}
+		relative_position_id = Stabilize_the_country
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = Black_army_issue
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Stabilize_the_country
+		}
+		relative_position_id = Stabilize_the_country
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = Locate_their_leaders
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Black_army_issue
+		}
+		prerequisite = {
+			focus = Hungarian_issue
+		}
+		relative_position_id = Stabilize_the_country
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = Get_rid_russian_influence
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Locate_their_leaders
+		}
+		relative_position_id = Stabilize_the_country
+		x = -1
+		y = 3
+
+	}
+	focus = {
+		id = Fight_the_corruption
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Locate_their_leaders
+		}
+		relative_position_id = Stabilize_the_country
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = National_unity_effort
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Fight_the_corruption
+		}
+		prerequisite = {
+			focus = Get_rid_russian_influence
+		}
+		relative_position_id = Stabilize_the_country
+		x = 0
+		y = 4
+	}
+
+#demokracja
+
+	focus = {
+		id = Return_of_democracy
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = National_legionary_state
+		}
+		x = 17
+		y = 6
+	}
+
+	focus = {
+		id = Support_agrarians
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Return_of_democracy
+		}
+		mutually_exclusive = {
+			focus = Support_national_liberals
+		}
+		relative_position_id = Return_of_democracy
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = Support_national_liberals
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Return_of_democracy
+		}
+		mutually_exclusive = {
+			focus = Support_agrarians
+		}
+		relative_position_id = Return_of_democracy
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = Silence_the_loyalists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Support_national_liberals
+		}
+		prerequisite = {
+			focus = Support_agrarians
+		}
+		relative_position_id = Return_of_democracy
+		x = 0
+		y = 2
+
+	}
+
+#agraryści
+
+	focus = {
+		id = National_peasants_party
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Silence_the_loyalists
+		}
+		mutually_exclusive = {
+			focus = National_liberal_party
+		}
+		relative_position_id = Return_of_democracy
+		x = -3
+		y = 3
+
+	}
+	focus = {
+		id = Agrarian_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = National_peasants_party
+		}
+		relative_position_id = Return_of_democracy
+		x = -3
+		y = 4
+
+	}
+	focus = {
+		id = Cooperative_farming
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Agrarian_reform
+		}
+		relative_position_id = Return_of_democracy
+		x = -5
+		y = 5
+
+	}
+	focus = {
+		id = Against_capitalism_socialism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Agrarian_reform
+		}
+		relative_position_id = Return_of_democracy
+		x = -3
+		y = 5
+
+	}
+	focus = {
+		id = Conservatism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Agrarian_reform
+		}
+		relative_position_id = Return_of_democracy
+		x = -1
+		y = 5
+
+	}
+	focus = {
+		id = Expand_welfare_state
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Against_capitalism_socialism
+		}
+		prerequisite = {
+			focus = Cooperative_farming
+		}
+		relative_position_id = Return_of_democracy
+		x = -4
+		y = 6
+
+	}
+	focus = {
+		id = Green_Romania
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Conservatism
+		}
+		prerequisite = {
+			focus = Against_capitalism_socialism
+		}
+		relative_position_id = Return_of_democracy
+		x = -2
+		y = 6
+
+	}
+	focus = {
+		id = Christian_democracy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Expand_welfare_state
+		}
+		relative_position_id = Return_of_democracy
+		x = -5
+		y = 7
+
+	}
+	focus = {
+		id = Factories_for_the_people
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Green_Romania
+		}
+		prerequisite = {
+			focus = Expand_welfare_state
+		}
+		relative_position_id = Return_of_democracy
+		x = -3
+		y = 7
+
+	}
+	focus = {
+		id = The_king_and_his_peoples
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Green_Romania
+		}
+		relative_position_id = Return_of_democracy
+		x = -1
+		y = 7
+
+	}
+	focus = {
+		id = Towards_the_peasant_state
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Factories_for_the_people
+		}
+		prerequisite = {
+			focus = The_king_and_his_peoples
+		}
+		prerequisite = {
+			focus = Christian_democracy
+		}
+		relative_position_id = Return_of_democracy
+		x = -3
+		y = 8
+	}
+
+#libki
+
+	focus = {
+		id = National_liberal_party
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Silence_the_loyalists
+		}
+		mutually_exclusive = {
+			focus = National_peasants_party
+		}
+		relative_position_id = Return_of_democracy
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = Normalise_relations_with_France
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = National_liberal_party
+		}
+		relative_position_id = Return_of_democracy
+		x = 2
+		y = 4
+
+	}
+
+	focus = {
+		id = Protectionism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = National_liberal_party
+		}
+		relative_position_id = Return_of_democracy
+		x = 4
+		y = 4
+
+	}
+
+	focus = {
+		id = Attack_the_left
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Protectionism
+		}
+		prerequisite = {
+			focus = Normalise_relations_with_France
+		}
+		relative_position_id = Return_of_democracy
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = Romanian_nationalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Attack_the_left
+		}
+		relative_position_id = Return_of_democracy
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = Centralize_the_country
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Attack_the_left
+		}
+		relative_position_id = Return_of_democracy
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = Prin_noi_insine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Attack_the_left
+		}
+		relative_position_id = Return_of_democracy
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = Liberal_reform
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Centralize_the_country
+		}
+		prerequisite = {
+			focus = Romanian_nationalism
+		}
+		relative_position_id = Return_of_democracy
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = Industrial_development_plan
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Centralize_the_country
+		}
+		prerequisite = {
+			focus = Prin_noi_insine
+		}
+		relative_position_id = Return_of_democracy
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = Golden_age_of_Romania
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Industrial_development_plan
+		}
+		prerequisite = {
+			focus = Liberal_reform
+		}
+		relative_position_id = Return_of_democracy
+		x = 3
+		y = 8
+	}
+
+#nacjonalizm
+
+	focus = {
+		id = National_legionary_state
+		icon = GFX_goal_unknown
+		cost = 10
+		mutually_exclusive = {
+			focus = Return_of_democracy
+		}
+		mutually_exclusive = {
+			focus = A_loyalist_Romania
+		}
+		x = 25
+		y = 6
+	}
+
+	focus = {
+		id = Nationalistic_trade_unions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = National_legionary_state
+		}
+		relative_position_id = National_legionary_state
+		x = 0
+		y = 1
+	}
+
+	focus = {
+		id = Romania_for_romanians
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Nationalistic_trade_unions
+		}
+		relative_position_id = National_legionary_state
+		x = -2
+		y = 2
+	}
+
+	focus = {
+		id = Ban_opposition_parties
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Nationalistic_trade_unions
+		}
+		relative_position_id = National_legionary_state
+		x = 0
+		y = 2
+	}
+
+	focus = {
+		id = Cult_of_the_leader
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Nationalistic_trade_unions
+		}
+		relative_position_id = National_legionary_state
+		x = 2
+		y = 2
+	}
+
+	focus = {
+		id = Bring_them_to_the_cross
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Ban_opposition_parties
+		}
+		prerequisite = {
+			focus = Romania_for_romanians
+		}
+		relative_position_id = National_legionary_state
+		x = -1
+		y = 3
+	}
+
+	focus = {
+		id = Romanian_expansionism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Ban_opposition_parties
+		}
+		prerequisite = {
+			focus = Cult_of_the_leader
+		}
+		relative_position_id = National_legionary_state
+		x = 1
+		y = 3
+	}
+
+	focus = {
+		id = Holy_romania
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Romanian_expansionism
+		}
+		prerequisite = {
+			focus = Bring_them_to_the_cross
+		}
+		relative_position_id = National_legionary_state
+		x = -1
+		y = 4
+	}
+
+	focus = {
+		id = New_romanian_man
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Bring_them_to_the_cross
+		}
+		prerequisite = {
+			focus = Romanian_expansionism
+		}
+		relative_position_id = National_legionary_state
+		x = 1
+		y = 4
+	}
+
+	focus = {
+		id = Traiasca_Romania
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = New_romanian_man
+		}
+		prerequisite = {
+			focus = Holy_romania
+		}
+		relative_position_id = National_legionary_state
+		x = 0
+		y = 5
+
+	}
+}
