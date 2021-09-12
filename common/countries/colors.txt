@@ -763,10 +763,6 @@ ZHE = {
 	color = rgb { 90 145 72 }
 	color_ui = rgb { 51 51 255 }
 }
-AFE = {
-	color = rgb { 128 128 128 }
-	color_ui = rgb { 51 51 255 }
-}
 ETU = {
 	color = rgb { 0 191 255 }
 	color_ui = rgb { 51 51 255 }
@@ -785,5 +781,9 @@ NCH = {
 }
 JCH = {
 	color = rgb { 217 216 197 }
+	color_ui = rgb { 51 51 255 }
+}
+GEA = {
+	color = rgb { 105 105 105 }
 	color_ui = rgb { 51 51 255 }
 }
